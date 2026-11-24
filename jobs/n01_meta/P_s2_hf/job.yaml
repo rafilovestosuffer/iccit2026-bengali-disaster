@@ -1,0 +1,10 @@
+project: iccit2845
+name: n01h-p_s2
+entry: n01_nested_meta.py
+args: "--config P_s2 --meta-seed {seed}"
+code: .
+gpu: false
+hours: 3
+internet: true
+# iccit2845-meta-inputs is a private dataset (not released). Rebuild it with `python jobs/n01_meta/pack.py published` (inputs/) and jobs/n01_meta/add_new_members.py (g2_s*).
+hf_datasets: [iccit2845-meta-inputs]

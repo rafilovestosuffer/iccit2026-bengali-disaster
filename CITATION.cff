@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use this code or these files, please cite the paper."
+title: "When Language Leads the Look: A Calibrated Multimodal Ensemble for Bengali Disaster Classification"
+authors:
+  - family-names: Rahman
+    given-names: Mohammad Rafiur
+    affiliation: "Chittagong University of Engineering and Technology"
+  - family-names: Hussain
+    given-names: Md. Shahdath
+    affiliation: "Chittagong University of Engineering and Technology"
+repository-code: "https://github.com/rafilovestosuffer/iccit2026-bengali-disaster"
+license: MIT
+keywords:
+  - multimodal learning
+  - disaster classification
+  - low-resource languages
+  - Bengali natural language processing
+  - nested cross-validation
+  - ensemble methods
+preferred-citation:
+  type: conference-paper
+  title: "When Language Leads the Look: A Calibrated Multimodal Ensemble for Bengali Disaster Classification"
+  authors:
+    - family-names: Rahman
+      given-names: Mohammad Rafiur
+    - family-names: Hussain
+      given-names: Md. Shahdath
+  collection-title: "2026 29th International Conference on Computer and Information Technology (ICCIT)"
+  conference:
+    name: "2026 29th International Conference on Computer and Information Technology (ICCIT)"
+    city: "Cox's Bazar"
+    country: BD
+  year: 2026

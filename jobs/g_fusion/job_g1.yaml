@@ -1,0 +1,12 @@
+project: iccit2845
+name: train-g1
+entry: train_fusion.py
+args: "--seed {seed} --branches g1"
+code: .
+exclude: ["job*.yaml", "make_rows.py", "cache", "outputs"]
+gpu: true
+hours: 1.1
+internet: true
+# iccit2845-eva02l-frozen is a private dataset (not released): eva_pooled.npy and eva_patch8.npy from job_g0.yaml (train_fusion.py --g0-only). Without it train_fusion.py extracts them from the images.
+hf_datasets: [iccit2845-eva02l-frozen]
+download: ["g1_s*_oof.npy", "g1_s*_test.npy", "g1_s*_testfolds.npy", "g1_s*_epochval.npy", "metrics.json"]

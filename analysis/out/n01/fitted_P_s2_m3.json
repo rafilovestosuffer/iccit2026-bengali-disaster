@@ -1,0 +1,261 @@
+{
+ "config": "P_s2",
+ "members": [
+  "bb_base",
+  "muril_L",
+  "eva02_L",
+  "g2_s2"
+ ],
+ "sources": {
+  "bb_base": "text_bbB_s123_20260509_0550",
+  "muril_L": "text_murilL_20260509_0210",
+  "eva02_L": "img_eva02L_448_20260511_0327",
+  "g2_s2": "g2_s0: run train-g2-1118-1903-s0, kernel <kaggle-user>/g-iccit2845-train-g2-1118-1903-s0, oof sha256 4ff7d8da8bc6bcfc\ng2_s1: run train-g2-1119-0003-s1, kernel <kaggle-user>/g-iccit2845-train-g2-1119-0003-s1, oof sha256 edacc41485e37f15\ng2_s2: run train-g2-1119-0039-s2, kernel <kaggle-user>/g-iccit2845-train-g2-1119-0039-s2, oof sha256 48be34e057f8c9c0\n"
+ },
+ "image_stats": null,
+ "text_features": "generic",
+ "meta_seed": 3,
+ "fitted": {
+  "outer0": {
+   "late_fusion_alpha": 0.495,
+   "blend_w": {
+    "bb_base": 0.2345,
+    "muril_L": 0.0578,
+    "eva02_L": 0.479,
+    "g2_s2": 0.2286
+   },
+   "mix_alpha": 1.0,
+   "bias_single": [
+    -0.03,
+    0.05,
+    0.0,
+    0.0,
+    0.01,
+    0.0,
+    -0.29,
+    0.0
+   ],
+   "bias_boot": [
+    -0.03,
+    0.0,
+    0.13,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "blend_bias_boot": [
+    -0.03,
+    0.0,
+    0.13,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "outer1": {
+   "late_fusion_alpha": 0.495,
+   "blend_w": {
+    "bb_base": 0.0,
+    "muril_L": 0.197,
+    "eva02_L": 0.4545,
+    "g2_s2": 0.3484
+   },
+   "mix_alpha": 0.87,
+   "bias_single": [
+    0.0,
+    0.0,
+    0.0,
+    0.33,
+    0.0,
+    0.01,
+    -0.44,
+    0.0
+   ],
+   "bias_boot": [
+    0.0,
+    0.0,
+    -0.3,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "blend_bias_boot": [
+    0.0,
+    -0.18,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    -0.27,
+    0.0
+   ]
+  },
+  "outer2": {
+   "late_fusion_alpha": 0.495,
+   "blend_w": {
+    "bb_base": 0.1032,
+    "muril_L": 0.2991,
+    "eva02_L": 0.4887,
+    "g2_s2": 0.1091
+   },
+   "mix_alpha": 0.715,
+   "bias_single": [
+    0.0,
+    -0.48,
+    0.08,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "bias_boot": [
+    0.0,
+    0.0,
+    -0.43,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "blend_bias_boot": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    -0.23,
+    0.0
+   ]
+  },
+  "outer3": {
+   "late_fusion_alpha": 0.495,
+   "blend_w": {
+    "bb_base": 0.0936,
+    "muril_L": 0.2464,
+    "eva02_L": 0.4849,
+    "g2_s2": 0.1751
+   },
+   "mix_alpha": 1.0,
+   "bias_single": [
+    -0.02,
+    -0.07,
+    0.0,
+    0.0,
+    0.02,
+    0.0,
+    -0.29,
+    -0.27
+   ],
+   "bias_boot": [
+    -0.02,
+    0.0,
+    -0.04,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "blend_bias_boot": [
+    -0.02,
+    0.0,
+    -0.04,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "outer4": {
+   "late_fusion_alpha": 0.495,
+   "blend_w": {
+    "bb_base": 0.1066,
+    "muril_L": 0.298,
+    "eva02_L": 0.4868,
+    "g2_s2": 0.1087
+   },
+   "mix_alpha": 1.0,
+   "bias_single": [
+    -0.06,
+    0.0,
+    0.01,
+    -0.05,
+    0.0,
+    0.0,
+    -0.16,
+    -0.33
+   ],
+   "bias_boot": [
+    -0.01,
+    0.0,
+    0.01,
+    -0.05,
+    0.0,
+    0.0,
+    0.0,
+    -0.22
+   ],
+   "blend_bias_boot": [
+    -0.01,
+    0.0,
+    0.01,
+    -0.05,
+    0.0,
+    0.0,
+    0.0,
+    -0.22
+   ]
+  },
+  "full": {
+   "late_fusion_alpha": 0.495,
+   "blend_w": {
+    "bb_base": 0.0798,
+    "muril_L": 0.1797,
+    "eva02_L": 0.4679,
+    "g2_s2": 0.2727
+   },
+   "mix_alpha": 1.0,
+   "bias_single": [
+    -0.02,
+    0.0,
+    -0.04,
+    0.0,
+    0.03,
+    0.0,
+    -0.22,
+    0.0
+   ],
+   "bias_boot": [
+    0.0,
+    0.0,
+    0.18,
+    0.0,
+    0.0,
+    0.0,
+    -0.2,
+    0.0
+   ],
+   "blend_bias_boot": [
+    0.0,
+    0.0,
+    0.18,
+    0.0,
+    0.0,
+    0.0,
+    -0.2,
+    0.0
+   ]
+  }
+ },
+ "seconds": 596
+}

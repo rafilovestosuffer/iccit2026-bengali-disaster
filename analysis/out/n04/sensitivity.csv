@@ -1,0 +1,7 @@
+system,all_n,all_f1,all_err,no_crossfold_caption_dup_n,no_crossfold_caption_dup_f1,no_crossfold_caption_dup_err,no_crossfold_image_dup_le4_n,no_crossfold_image_dup_le4_f1,no_crossfold_image_dup_le4_err,no_crossfold_dup_any_le4_n,no_crossfold_dup_any_le4_f1,no_crossfold_dup_any_le4_err
+bb_base,6323,0.96587,215,6305,0.96577,215,5336,0.96474,179,5321,0.96463,179
+bb_multi,6323,0.96656,211,6305,0.96646,211,5336,0.96678,171,5321,0.96667,171
+muril_L,6323,0.97556,154,6305,0.97548,154,5336,0.9755,125,5321,0.97542,125
+eva02_L,6323,0.96714,209,6305,0.96707,209,5336,0.96103,204,5321,0.96094,204
+mm_old,6323,0.99212,50,6305,0.9921,50,5336,0.99161,44,5321,0.99159,44
+pl_muril,6323,0.97525,156,6305,0.97517,156,5336,0.97509,127,5321,0.97501,127

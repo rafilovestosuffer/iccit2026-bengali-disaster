@@ -1,0 +1,55 @@
+{
+ "status": "post hoc (D37), exploratory; not part of the pre-specified family",
+ "split_rule": "duplicate-group halves within each fold: sha256('2845-control-v1/' + group id)[0] % 2",
+ "half_sizes": [
+  [
+   620,
+   645
+  ],
+  [
+   621,
+   644
+  ],
+  [
+   614,
+   651
+  ],
+  [
+   611,
+   653
+  ],
+  [
+   605,
+   659
+  ]
+ ],
+ "inputs": {
+  "analysis/out/n02/preds.npz": "730f61ea41545f15908b1a05e9831786a6690d202c84d14bee5c28e6821b7d20",
+  "analysis/out/dedup_masks.npz": "0ee7522f242d434a006f1bc9f1bd9b4c5a9104404201b4b4d967e27bb0eebac6",
+  "runs/k1-imgindex-1118-1725-s0/outputs/near_dups.csv": "4454575218dfb363ca340bc45b9d6bea00efb7d8a6f75426401fac21602b28eb",
+  "drive_oof/x/meta/folds_canonical.csv": "4276b197cd303aaf08993563eb69378b8abb180f4f63cc0b0a319a2d8edd3665",
+  "runs/train-g1-1118-1903-s0/outputs/g1_s0_oof.npy": "34dc1802a49af1867d482493fc2cf3e25651345743a44363d4fd8f67495c3874",
+  "runs/train-g1-1118-1918-s1/outputs/g1_s1_oof.npy": "d2ebf9947ff28eb95cec698e9644120a037b019f8bd421c53b6f17e5b95764c3",
+  "runs/train-g1-1119-0003-s2/outputs/g1_s2_oof.npy": "62abd8d4e33a98547a8c964a0b6416c80f394096e6a914553c8a26fb36ce3067",
+  "analysis/out/n01/preds_P_m0.npz": "05d3d4dcfdbd00634aace0afc128da96601b8a68e2697d3227e32e3dccc2dbba",
+  "analysis/out/n01/preds_P_m1.npz": "04d8cbeab0f54e1f53006b4b9b5cfb52f89778a5be418d29387004de2a233509",
+  "analysis/out/n01/preds_P_m2.npz": "81a66aafb07e83e6fe5efffe48780df64452e300ac0e415fc75538ee54a00e88",
+  "analysis/out/n01/preds_P_m3.npz": "2ec64b3a9819cd1b85f4fafcdad57c15f5510d52e152515b7111f14194c84e56",
+  "analysis/out/n01/preds_P_m4.npz": "2ecd52cde1ec5e403beed5c63de2c3ef8f5ed170bba8d692678b8bb822e75bc9",
+  "analysis/out/n01/preds_P_s1_m0.npz": "701ff876f4d672708b8c36486d593ece210e73ebeb53d0a3ff233523c1a4138c",
+  "analysis/out/n01/preds_P_s1_m1.npz": "d18d67358c1d6098eca7da6281486109e92f7604a323bb989d781a8a7bf17b8b",
+  "analysis/out/n01/preds_P_s1_m2.npz": "afd53e20db451d1d2f9d28c2572f5505536fdc922fb8fb0fe2ca695e7662deee",
+  "analysis/out/n01/preds_P_s1_m3.npz": "90a32986e93d8459f58530187f2d1dfe740798258998d8747dc21a76977d003a",
+  "analysis/out/n01/preds_P_s1_m4.npz": "6178f4f76f0f8f52421f3f2b03b587d6126629999c2b8fe9b6c68d080047232b",
+  "analysis/out/n01/preds_P_s2_m0.npz": "2117c851ae4e5cbea799f52f3a9d8062166e353e2abe9ef7d249163b8b30df34",
+  "analysis/out/n01/preds_P_s2_m1.npz": "f688f8cd3ca7c24d0ab229f874d38d288e8fc782f79a1d07bb4d4e2d130ef5fe",
+  "analysis/out/n01/preds_P_s2_m2.npz": "2e5550be0ef347d54774b0abbfafa97c81c4f620d689f752131d1f2e13f494e3",
+  "analysis/out/n01/preds_P_s2_m3.npz": "e41f16a88f54aa7772c98715d7dfbdbb463403f07473a65c2c2d8b646b3537d0",
+  "analysis/out/n01/preds_P_s2_m4.npz": "3c35760bc6ab146334289f2bd6c87eda7ad773d02c3b769dccaaa21497c5d844",
+  "analysis/out/n01/preds_published_m0.npz": "270a7efaefcc96998ba79df37b4812f96df1088ec2bff43d4234dd80aeb7b1a8",
+  "analysis/out/n01/preds_published_m1.npz": "9574fcd5cbaee8f40d048750fc37a295affbc47ddfbb6d21659dade66b25e4a7",
+  "analysis/out/n01/preds_published_m2.npz": "17ae50dd8cac37737c889493fb3908596a04e494c4cbbe25e1d76aa946fbccd7",
+  "analysis/out/n01/preds_published_m3.npz": "c4743115c31c2f17806d2cea6e4d1d5f9e96ccaef892a3e4999349a5200b1509",
+  "analysis/out/n01/preds_published_m4.npz": "3c3d31bfbc2d401ee8db579025e367c448793974fa1fa14350b3791ec9c9dff7"
+ }
+}

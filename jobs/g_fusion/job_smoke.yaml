@@ -1,0 +1,11 @@
+project: iccit2845
+name: g-fusion-smoke
+entry: train_fusion.py
+args: "--seed {seed} --smoke"
+code: .
+exclude: ["job*.yaml", "make_rows.py", "cache", "outputs"]
+gpu: false
+hours: 1
+internet: true
+competitions: [detect-the-disaster-intra-cuet-ml-contest-2-0]
+download: [metrics.json]

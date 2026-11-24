@@ -1,0 +1,11 @@
+project: iccit2845
+name: k1-imgindex
+entry: imgindex.py
+args: ""
+code: .
+gpu: false
+hours: 1
+internet: true
+competitions: [detect-the-disaster-intra-cuet-ml-contest-2-0]
+kaggle_datasets: [mukaffimoin/banglacalamitymmd-multimodal-disaster-dataset]
+download: [contest_index.csv, bcmmd_index.csv, map_contest_to_bcmmd.csv, near_dups.csv, summary.json]

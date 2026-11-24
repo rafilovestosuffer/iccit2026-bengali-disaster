@@ -1,0 +1,27 @@
+{
+ "seeds": [
+  0,
+  1,
+  2
+ ],
+ "sources": {
+  "g1_s0": "runs/train-g1-1118-1903-s0/outputs",
+  "g2_s0": "runs/train-g2-1118-1903-s0/outputs",
+  "g3_s0": "runs/train-g3-1118-1915-s0/outputs",
+  "g1_s1": "runs/train-g1-1118-1918-s1/outputs",
+  "g2_s1": "runs/train-g2-1119-0003-s1/outputs",
+  "g3_s1": "runs/train-g3-1119-0040-s1/outputs",
+  "g1_s2": "runs/train-g1-1119-0003-s2/outputs",
+  "g2_s2": "runs/train-g2-1119-0039-s2/outputs",
+  "g3_s2": "runs/train-g3-1119-0119-s2/outputs"
+ },
+ "eva_pooled": "runs/train-g3-1119-0040-s1/outputs/eva_pooled.npy",
+ "C_outer": {
+  "0": 0.01,
+  "1": 1.0,
+  "2": 0.1,
+  "3": 0.01,
+  "4": 0.01
+ },
+ "C_final": 0.01
+}

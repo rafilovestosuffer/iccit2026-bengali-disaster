@@ -1,0 +1,29 @@
+{
+ "status": "D37; descriptive provenance check, training rows only",
+ "n_train": 6323,
+ "same_dimensions": true,
+ "md5_equal": 0,
+ "pair_phash_dist_counts": {
+  "0": 6056,
+  "2": 267
+ },
+ "working": {
+  "cross_fold_d0": 851,
+  "cross_fold_le4": 987,
+  "dedup_keep": 5321
+ },
+ "public": {
+  "cross_fold_d0": 853,
+  "cross_fold_le4": 987,
+  "dedup_keep": 5321
+ },
+ "le4_flag_diff": 4,
+ "keep_diff": 4,
+ "frozen_mask_matches_working": true,
+ "inputs": {
+  "runs/k1-imgindex-1118-1725-s0/outputs/contest_index.csv": "ab01909a78bfffcf6f34818212d16ba31abf771bf1e0682d038e4f8df697c41e",
+  "runs/k1-imgindex-1118-1725-s0/outputs/bcmmd_index.csv": "4903ca9b975e6e94b8d750070b65591512350b3e90d12a5eab3090c28c7897a7",
+  "analysis/out/dedup_masks.npz": "0ee7522f242d434a006f1bc9f1bd9b4c5a9104404201b4b4d967e27bb0eebac6",
+  "drive_oof/x/meta/folds_canonical.csv": "4276b197cd303aaf08993563eb69378b8abb180f4f63cc0b0a319a2d8edd3665"
+ }
+}

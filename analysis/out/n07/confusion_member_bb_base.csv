@@ -1,0 +1,9 @@
+,Drought,Earthquake,Flood,Human Damage,Landslides,Non Disaster,Tropical Storm,Wildfire
+Drought,770,0,3,9,0,4,4,10
+Earthquake,1,778,5,2,8,0,6,0
+Flood,2,2,775,3,13,2,1,2
+Human Damage,7,3,3,761,1,8,6,11
+Landslides,0,4,15,1,778,0,3,2
+Non Disaster,3,1,0,2,0,786,6,2
+Tropical Storm,1,6,5,4,4,5,772,3
+Wildfire,9,2,2,14,0,3,2,688

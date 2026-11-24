@@ -1,0 +1,42 @@
+{
+ "banglabert_base_train": {
+  "model": "csebuetnlp/banglabert",
+  "max_len": 160,
+  "n": 6323,
+  "over": 4,
+  "over_pct": 0.06,
+  "median": 19.0,
+  "p99": 86.0,
+  "max": 214
+ },
+ "banglabert_base_test": {
+  "model": "csebuetnlp/banglabert",
+  "max_len": 160,
+  "n": 1580,
+  "over": 0,
+  "over_pct": 0.0,
+  "median": 20.0,
+  "p99": 77.21000000000004,
+  "max": 105
+ },
+ "muril_large_train": {
+  "model": "google/muril-large-cased",
+  "max_len": 256,
+  "n": 6323,
+  "over": 0,
+  "over_pct": 0.0,
+  "median": 20.0,
+  "p99": 90.0,
+  "max": 224
+ },
+ "muril_large_test": {
+  "model": "google/muril-large-cased",
+  "max_len": 256,
+  "n": 1580,
+  "over": 0,
+  "over_pct": 0.0,
+  "median": 21.0,
+  "p99": 81.63000000000011,
+  "max": 105
+ }
+}

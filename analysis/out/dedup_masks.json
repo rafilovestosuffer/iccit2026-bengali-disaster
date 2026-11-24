@@ -1,0 +1,7 @@
+{
+ "train_keep": 5321,
+ "train_drop": 1002,
+ "test_keep": 1351,
+ "test_drop": 229,
+ "rule": "pHash<=4 near-duplicate image or identical normalised caption, cross-fold (train) / in train (test)"
+}

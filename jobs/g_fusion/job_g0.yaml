@@ -1,0 +1,12 @@
+project: iccit2845
+name: g0-evafeat
+entry: train_fusion.py
+args: "--g0-only"
+code: .
+exclude: ["job*.yaml", "make_rows.py", "cache", "outputs"]
+gpu: true
+hours: 0.6
+internet: true
+competitions: [detect-the-disaster-intra-cuet-ml-contest-2-0]
+kaggle_datasets: [mukaffimoin/banglacalamitymmd-multimodal-disaster-dataset]
+download: [eva_pooled.npy, eva_patch8.npy, eva_rows.csv, metrics.json]
